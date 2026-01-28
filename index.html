@@ -1,0 +1,400 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Aruna Sampath | Portfolio</title>
+    <meta name="description" content="Portfolio of Aruna Sampath - Projects, skills, and contact." />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header" id="top">
+        <div class="container header__inner">
+            <a class="brand" href="#top" aria-label="Go to top">
+                <span class="brand__dot"></span>
+                <span class="brand__name">Aruna Sampath</span>
+            </a>
+
+            <nav class="nav" id="nav">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#education">Education</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <div class="header__actions">
+                <button class="icon-btn" id="themeBtn" type="button" aria-label="Toggle theme" title="Toggle theme">
+                    🌙
+                </button>
+                <button class="icon-btn nav-btn" id="menuBtn" type="button" aria-label="Open menu" title="Menu">
+                    ☰
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile menu -->
+    <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+        <div class="mobile-menu__panel">
+            <div class="mobile-menu__top">
+                <strong>Menu</strong>
+                <button class="icon-btn" id="closeMenuBtn" type="button" aria-label="Close menu">✕</button>
+            </div>
+            <a href="#about" class="mobile-link">About</a>
+            <a href="#skills" class="mobile-link">Skills</a>
+            <a href="#projects" class="mobile-link">Projects</a>
+            <a href="#education" class="mobile-link">Education</a>
+            <a href="#contact" class="mobile-link">Contact</a>
+        </div>
+    </div>
+
+    <!-- Hero -->
+    <main>
+        <section class="hero">
+            <div class="container hero__inner">
+                <div class="hero__text">
+                    <p class="badge">Available for opportunities</p>
+                    <h1>
+                        Hi, I’m <span class="accent">Aruna</span> 👋<br />
+                        <span class="muted">IT Graduate</span></br>
+                        <span class="muted">Information Systems Undergraduate</span>
+                    </h1>
+                    <p class="lead">
+                        I build web applications and data-driven solutions. I’m interested in software engineering,
+                        business systems, and practical AI projects.
+                    </p>
+
+                    <div class="hero__cta">
+                        <a class="btn" href="#projects">View Projects</a>
+                        <a class="btn btn--ghost" href="#contact">Contact Me</a>
+                    </div>
+
+                    <div class="hero__links">
+                        <a href="https://github.com/ArunaS2001" target="_blank" rel="noopener">
+                            GitHub
+                        </a>
+                    
+                        <a href="https://www.linkedin.com/in/aruna-sampath-a0a0a8227" target="_blank" rel="noopener">
+                            LinkedIn
+                        </a>
+                    
+                        <a href="mailto:sampatharuna32@gmail.com">
+                            Email
+                        </a>
+                    
+                        <a href="tel:+94713612889">
+                            Mobile
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="hero__card fb-card">
+                
+                    <!-- Cover -->
+                    <div class="fb-cover">
+                        <img src="assets/cover.jpg" alt="Cover photo">
+                    </div>
+                
+                    <!-- Profile + text -->
+                    <div class="fb-body">
+                        <div class="fb-avatar">
+                            <img src="assets/avatar.jpg" alt="Aruna Sampath">
+                        </div>
+                
+                        <h2 class="profile__name">Aruna Sampath</h2>
+                        <p class="profile__role">Undergraduate • Web Developer</p>
+                        <p class="profile__meta">Sri Lanka • Open to internships / junior roles</p>
+                    </div>
+
+                    <div class="stats">
+                        <div class="stat">
+                            <div class="stat__num">5+</div>
+                            <div class="stat__label">Academic / Personal Projects</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat__num">PHP</div>
+                            <div class="stat__label">Web & CRUD Systems</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat__num">SQL</div>
+                            <div class="stat__label">Database Design</div>
+                        </div>
+                    </div>
+
+                    
+                    <a class="btn btn--full" href="https://drive.google.com/uc?export=download&id=1nJd1dE2EFTpYtbDzwXRFYxOoHbwtdLw8"
+                        target="_blank" rel="noopener">
+                        Download CV
+                    </a><br><br>    
+                    <a class="btn btn--full" href="https://drive.google.com/file/d/1nJd1dE2EFTpYtbDzwXRFYxOoHbwtdLw8/view" target="_blank"
+                        rel="noopener">
+                        View CV
+                    </a>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section class="section" id="about">
+            <div class="container">
+                <div class="section__head">
+                    <h2>About</h2>
+                    <p class="muted">A quick intro</p>
+                </div>
+
+                <div class="grid grid--2">
+                    <div class="card">
+                        <h3>Who I am</h3>
+                        <p>
+                            I am an Information Systems undergraduate and a graduate of the Bachelor of Information Technology (External) degree
+                            program at the University of Moratuwa. I have a strong interest in developing practical, real-world software solutions,
+                            with experience in building web-based systems, designing efficient databases, and creating clean, user-friendly
+                            interfaces. I value structured, process-driven development and clear documentation to deliver reliable and maintainable
+                            applications.
+                        </p>
+                        <p>
+                            Recently, I have developed complete job portal systems and administrative dashboards, and worked on research and
+                            implementation related to sensor-based health monitoring systems.
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <h3>What I’m looking for</h3>
+                        <ul class="list">
+                            <li>Internship / Junior Software Engineer roles</li>
+                            <li>Web development (PHP / JS) and system design</li>
+                            <li>Projects involving analytics, dashboards, or applied AI</li>
+                        </ul>
+                        <div class="chips">
+                            <span class="chip">Web Apps</span>
+                            <span class="chip">Dashboards</span>
+                            <span class="chip">Databases</span>
+                            <span class="chip">Research</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section class="section" id="skills">
+            <div class="container">
+                <div class="section__head">
+                    <h2>Skills</h2>
+                    <p class="muted">Tools & technologies</p>
+                </div>
+
+                <div class="grid grid--3">
+                    <div class="card">
+                        <h3>Frontend</h3>
+                        <div class="chips">
+                            <span class="chip">HTML</span><span class="chip">CSS</span><span
+                                class="chip">JavaScript</span>
+                            <span class="chip">jQuery</span><span class="chip">Chart.js</span>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <h3>Backend</h3>
+                        <div class="chips">
+                            <span class="chip">PHP</span><span class="chip">MySQL</span><span class="chip">REST</span>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <h3>Other</h3>
+                        <div class="chips">
+                            <span class="chip">Git / GitHub</span><span class="chip">UML</span><span
+                                class="chip">BPMN</span>
+                            <span class="chip">Report Writing</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="section" id="projects">
+            <div class="container">
+                <div class="section__head">
+                    <h2>Projects</h2>
+                    <p class="muted">Some things I’ve built</p>
+                </div>
+
+                <div class="grid grid--3">
+                    <article class="card project">
+                        <h3>Miracle Path Finder</h3>
+                        <p class="muted">Web-based job portal system with career guidance features.</p>
+                        <ul class="list list--small">
+                            <li>Role-based users & admin panel</li>
+                            <li>Inquiry / feedback management</li>
+                            <li>Reports & dashboards</li>
+                        </ul>
+                        <div class="project__links">
+                            <a href="https://github.com/ArunaS2001/Miracle-Path-Finder.git" target="_blank" rel="noopener">
+                                GitHub
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="card project">
+                        <h3>"Read Again" Book Reselling System</h3>
+                        <p class="muted">A marketplace for buying and selling second-hand books with user login and book listings.</p>
+                        <ul class="list list--small">
+                            <li>Book listing & reselling management</li>
+                            <li>Buyer–seller interaction & order handling</li>
+                            <li>Updates and reviews of the books</li>
+                        </ul>
+                        <div class="project__links">
+                            <a href="https://github.com/ArunaS2001/Book-Reselling" target="_blank" rel="noopener">
+                                GitHub
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="card project">
+                        <h3>Map Application Mini Project</h3>
+                        <p class="muted">
+                            A web-based map application that allows users to view locations and interact with map-based features.
+                        </p>
+                        <ul class="list list--small">
+                            <li>Interactive map display</li>
+                            <li>Location search and navigation</li>
+                            <li>User-friendly map interface</li>
+                        </ul>
+                        <div class="project__links">
+                            <a href="https://github.com/ArunaS2001/MapApplication_MiniProject" target="_blank" rel="noopener">
+                                GitHub
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="card project">
+                        <h3>AI Learning Project</h3>
+                        <p class="muted">
+                            A beginner-friendly project focused on understanding core artificial intelligence concepts through practical
+                            implementation.
+                        </p>
+                        <ul class="list list--small">
+                            <li>Introduction to basic AI and machine learning concepts</li>
+                            <li>Hands-on implementation of simple algorithms</li>
+                            <li>Exploration of data processing and model behavior</li>
+                        </ul>
+                        <div class="project__links">
+                            <a href="https://github.com/ArunaS2001/AI_LearningProject" target="_blank" rel="noopener">
+                                GitHub
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="card project">
+                        <h3>Research: Diabetic Foot Risk Detection</h3>
+                        <p class="muted">Review & modeling using sensor-based parameters.</p>
+                        <ul class="list list--small">
+                            <li>Plantar pressure</li>
+                            <li>Foot temperature</li>
+                            <li>Foot moisture</li>
+                        </ul>
+                        
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education -->
+        <section class="section" id="education">
+            <div class="container">
+                <div class="section__head">
+                    <h2>Education</h2>
+                    <p class="muted">Academic background</p>
+                </div>
+
+                <div class="grid grid--2">
+                    <div class="card">
+                        <h3>Bachelor of Information Technology (External)</h3>
+                        <p class="muted">University of Moratuwa (2022-2025)</p>
+                        <p class="muted">Graduate</p>
+                        <p>Focus: software development, databases, systems analysis.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Bachelor of Computing (Hons) in Information Systems</h3>
+                        <p class="muted">University of Sri Jayewardenepura (2023-2027)</p>
+                        <p class="muted">Undergraduate</p>
+                        <p>Focus: information systems, business processes, applied computing.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="section" id="contact">
+            <div class="container">
+                <div class="section__head">
+                    <h2>Contact me...</h2>
+                    <p class="muted">Let’s talk</p>
+                </div>
+
+                <div class="grid grid--2">
+                    <div class="card">
+                        <h3>Contact Details</h3>
+                        <p class="muted">You can contact me through the links below.</p>
+                        <ul class="list">
+                            <li>Email: <a href="mailto:youremail@example.com">sampatharuna32@gmail.com</a></li>
+                            <li>Phone:
+                                <a href="tel:+94713612889">
+                                    +94 71 36 12 889
+                                </a>
+                            </li>
+                            <li>GitHub: <a href="https://github.com/ArunaS2001" target="_blank"
+                                    rel="noopener">github.com/ArunaS2001</a></li>
+                            <li>LinkedIn: <a href="https://www.linkedin.com/" target="_blank"
+                                    rel="noopener">www.linkedin.com/in/aruna-sampath-a0a0a8227</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="card">
+                        <h3>Message</h3>
+                        <p class="muted">You can reach me through out this...</p>
+                        <form class="form" action="#" method="POST" onsubmit="return fakeSubmit(event)">
+                            <label>
+                                <span>Name</span>
+                                <input required name="name" placeholder="Your name" />
+                            </label>
+                            <label>
+                                <span>Email</span>
+                                <input required type="email" name="email" placeholder="you@example.com" />
+                            </label>
+                            <label>
+                                <span>Message</span>
+                                <textarea required name="message" rows="4"
+                                    placeholder="Write your message..."></textarea>
+                            </label>
+                            <button class="btn btn--full" type="submit">Send</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="container footer__inner">
+                <span class="muted">© <span id="year"></span> Aruna Sampath</span>
+            </div>
+        </footer>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
